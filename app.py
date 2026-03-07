@@ -51,6 +51,12 @@ for c in range(3):
     else:
         print("O número da rota inserida não existe.")
 
-    hora = int(input("Insira o horário da aula(7h-18h): "))
-    turno = turno(hora)
+    hr = int(input("Insira o horário da aula(7h-18h): "))
     
+    tur = turno(hr)
+    res = Cadastro(nome,rota,tur)
+    
+    print(res)
+    c+=1
+
+print("\nSistema encerrado.")
