@@ -19,3 +19,7 @@ def turno(hora):
     
     else:
         return "Não temos transporte neste horário."
+    
+def Cadastro(nome,rota,turno):
+    mensagem = "Aluno " +nome+ "cadastrado na rota" +rota+ " para o turno da(o) " +turno+ "."
+    return mensagem
