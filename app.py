@@ -14,7 +14,7 @@ def turno(hora):
     
     elif 12 <= hora < 16:
         return "Tarde"
-    
+        
     elif 16 <= hora <= 18:
         return "Final da Tarde"
     
