@@ -38,19 +38,19 @@ for c in range(3):
 
     if select == 1:
         rota = "Rota 1 - Umirim"
-    elif select == 1:
+    elif select == 2:
         rota = "Rota 2 - Croatá"
-    elif select == 1:
+    elif select == 3:
         rota = "Rota 3 - São Luis do Curu"
-    elif select == 1:
+    elif select == 4:
         rota = "Rota 4 - Itapajé"
-    elif select == 1:
+    elif select == 5:
         rota = "Rota 5 - Uruburetama"
-    elif select == 1:
+    elif select == 6:
         rota = "Rota 6 - Itapipoca"
     else:
         print("O número da rota inserida não existe.")
 
-    hr = int(input("Insira o horário da aula(7h-18h): "))
-    tur = turno(hora)
+    hora = int(input("Insira o horário da aula(7h-18h): "))
+    turno = turno(hora)
     
