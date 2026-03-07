@@ -9,13 +9,13 @@ def Rotas():
     print("Rota 6 - Itapipoca")
 
 def turno(hora):
-    if hora >= 6 and hora < 8:
+    if 6 <= hora < 12:
         return "Manhã"
     
-    elif hora >= 12 and hora < 14:
+    elif 12 <= hora < 16:
         return "Tarde"
     
-    elif hora >= 16 and hora < 18:
+    elif 16 <= hora <= 18:
         return "Final da Tarde"
     
     else:
