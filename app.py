@@ -50,3 +50,7 @@ for c in range(3):
         rota = "Rota 6 - Itapipoca"
     else:
         print("O número da rota inserida não existe.")
+
+    hr = int(input("Insira o horário da aula(7h-18h): "))
+    tur = turno(hora)
+    
