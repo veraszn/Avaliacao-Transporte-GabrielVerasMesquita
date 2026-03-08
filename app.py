@@ -1,4 +1,5 @@
 
+#Funções:
 def Rotas():
     print("\nLista de Rotas:") 
     print("Rota 1 - Umirim")
@@ -25,7 +26,7 @@ def Cadastro(nome,rota,turno):
     mensagem = f"Aluno {nome} cadastrado na rota {rota} para o turno da(o) {turno}."
     return mensagem
 
-
+#Sistema:
 print("Registro de Alunos - Ônibus IFCE Campus Umirim")
 c = 0
 
@@ -51,7 +52,7 @@ for c in range(3):
     else:
         print("O número da rota inserida não existe.")
 
-    hr = int(input("Insira o horário da aula(7h-18h): "))
+    hr = int(input("Insira o horário da aula(6h-18h): "))
     
     tur = turno(hr)
     res = Cadastro(nome,rota,tur)
